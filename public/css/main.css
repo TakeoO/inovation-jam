@@ -1,0 +1,108 @@
+* {
+    font-family: "Comic Sans MS";
+}
+
+div.container {
+    border: 1px solid #0f0;
+    height: 806px;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+div.container header {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #f00;
+}
+
+div.container header .logo-wrapper {
+    border: 1px solid black;
+    width: 308px;
+    height: 180px;
+    float: left;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.logo-wrapper .logo img {
+    width: 100%;
+}
+
+div.container header .top-navigation-wrapper {
+    border: 1px solid black;
+    width: 928px;
+    height: 180px;
+    float: left;
+    margin-top: 10px;
+}
+
+div.container header .top-navigation-wrapper ul {
+    float: right;
+    margin: 20px;
+}
+
+div.container header .top-navigation-wrapper li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+
+div.container article {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #00f;
+}
+
+div.container article .left-navigation-wrapper {
+    border: 1px solid black;
+    width: 308px;
+    height: 480px;
+    float: left;
+    margin-top: 10px;
+}
+
+div.container article .content-wrapper {
+    border: 1px solid black;
+    width: 928px;
+    height: 480px;
+    float: left;
+    margin-top: 10px;
+}
+
+div.container article .content-wrapper .input-wrapper {
+    width: 100%;
+}
+
+div.container article .content-wrapper .input-wrapper input {
+    width: 420px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+div.container article .content-wrapper .message-wrapper textarea {
+    width: 870px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 300px;
+}
+
+div.container article .content-wrapper .button-wrapper input {
+    float: right;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 30px;
+    background-color: green;
+}
+
+div.container footer {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000;
+}
